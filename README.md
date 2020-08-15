@@ -1,4 +1,4 @@
-# Data lake 
+# Data lake on GCP using Terraform
 Use Terraform to set up infrastructure-as-code for a Data Lake on Google Cloud Platform.
 ## Before we start
 You will need to do the following for this project:
