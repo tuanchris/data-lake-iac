@@ -26,7 +26,7 @@ Run the following to init our project
 terraform init
 ```
 ### Change the parameters on Variables.tf
-Change the parameters in this file. Refer back to my article and the code for what the parameter is used for.
+Change the parameters in this file. Refer back to my [article](https://towardsdatascience.com/data-lake-on-gcp-using-terraform-469062a205ad) and the code for what the parameter is used for.
 
 ### Create the infrastructure
 Run the following to create the infrastructure
