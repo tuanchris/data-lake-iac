@@ -14,6 +14,7 @@ Clone the project locally by running:
 git clone https://github.com/tuanchris/data-lake-iac.git
 cd data-lake-iac
 ```
+Or you can fork the project to your account.
 ### Authenticate with GCP
 First, authenticate with GCP. Paste the following comment to a terminal and follow the instructions.
 ```
@@ -26,5 +27,18 @@ terraform init
 ```
 ### Change the parameters on Variables.tf
 Change the parameters in this file. Refer back to my article and the code for what the parameter is used for.
+
+### Create the infrastructure
+Run the following to create the infrastructure
+```
+terraform apply
+```
+### Customize IAM permissions
+Customize permissions in the `bq-dwh.tf`, `bq-dm.tf`, `gcs.tf`, and `iam.tf` to your specifications.
+### Clean up 
+Clean up the resources by running 
+```
+terraform destroy
+```
 
 Any feedback is welcome :) 
