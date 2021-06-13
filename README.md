@@ -16,7 +16,7 @@ cd data-lake-iac
 ```
 Or you can fork the project to your account.
 ### Authenticate with GCP
-First, authenticate with GCP. Paste the following comment to a terminal and follow the instructions.
+First, authenticate with GCP. Paste the following command to a terminal and follow the instructions.
 ```
 gcloud auth application-default login
 ```
